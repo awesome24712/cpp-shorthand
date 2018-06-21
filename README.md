@@ -38,6 +38,10 @@ Generated files are below:
 
 namespace Shapes {
   class Rectangle;
+  
+  //----------------------------------------------------------
+  // Global list of rectangles
+  //----------------------------------------------------------
   extern Rectangle** g_ppRectangles;
   
   /**
@@ -107,6 +111,10 @@ namespace Shapes {
 
 namespace Shapes {
 
+  
+  //----------------------------------------------------------
+  // Global list of rectangles
+  //----------------------------------------------------------
   Rectangle** g_ppRectangles = NULL;
   
   /**
@@ -166,18 +174,30 @@ using namespace Shapes;
 
 TEST_PLAN("Shapes::Rectangle");
 
+/**
+ * @brief
+ */
 TEST(RectangleConstructor) {
 
 }
 
+/**
+ * @brief
+ */
 TEST(RectangleDiagonal) {
 
 }
 
+/**
+ * @brief
+ */
 TEST(RectangleArea) {
 
 }
 
+/**
+ * @brief
+ */
 TEST(RectanglePerimeter) {
 
 }
